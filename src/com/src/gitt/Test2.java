@@ -1,15 +1,14 @@
 package com.src.gitt;
 
-public class Test1 {
+public class Test2 {
 
 	public static void main(String[] args) {
 		String hungry = "yes";
-		if(hungry=="yes") 
+		if(hungry=="yes" || hungry == "Y" || hungry=="y") 
 			System.out.println("eat something");
 			else {
-				System.out.println("do work");
+				System.out.println("do workkkkkk");
 			}
-
 	}
 
 }
